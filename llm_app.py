@@ -3,7 +3,7 @@ def llm_app(topic):
  from langchain_core.prompts import PromptTemplate
  from langchain_groq import ChatGroq
  # 1. Initialize your LLM
- groq_api = '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'
+ groq_api = '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'
  llm = ChatGroq(model='openai/gpt-oss-120b', api_key=groq_api, temperature=0.1)
 
  prompt=PromptTemplate(
