@@ -10,7 +10,7 @@ def llm_app(topic, groq_api):
     input_variables=['topic'],
     
     template='You are a animal expert.\
-    provide five import lines coverng about {topic} in english,hindi and sanskrit.'
+    provide five import lines coverng about {topic} also provide one fun fact, which fruit help in which disease, also their season, one column of did you know this, in english,hindi and sanskrit.'
  )
 
  chain=prompt | llm
