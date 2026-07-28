@@ -13,7 +13,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🖼️ Fruit classification")
+st.title("🖼️Which fruit is in your mind today? ")
 
 # Create two columns
 col1, col2 = st.columns([1, 2])
